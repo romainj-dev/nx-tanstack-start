@@ -6,9 +6,13 @@ export const Route = createFileRoute('/')({
 
 function HomePage() {
   return (
-    <div style={{ padding: '2rem', fontFamily: 'system-ui, sans-serif' }}>
-      <h1>Job Tracker</h1>
-      <p>Track your job applications in one place.</p>
+    <div>
+      <h1 className="text-3xl font-bold tracking-tight text-gray-900">
+        Job Tracker
+      </h1>
+      <p className="mt-2 text-lg text-gray-600">
+        Track your job applications in one place.
+      </p>
     </div>
   )
 }

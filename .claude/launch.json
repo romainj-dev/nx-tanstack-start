@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "job-tracker",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["nx", "dev", "job-tracker"],
+      "port": 5173
+    }
+  ]
+}
